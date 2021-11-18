@@ -1,0 +1,21 @@
+{
+  "name": "three_js_test",
+  "version": "0.0.0",
+  "description": "testing how three JS works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "author": "Ryan",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.134.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
